@@ -8,6 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import '../Components/HomePage.css'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
+
 const DonatePage = () => {
   return (
     <div>
@@ -84,7 +85,7 @@ const DonatePage = () => {
             <div class="card plan-card">
                 <div class="card-block">
                     <div class="pt-3 pb-3">
-                        <h1><i class="fa fa-umbrella plan-icon bg-pink"></i></h1>
+                        <h1><img src="https://t4.ftcdn.net/jpg/02/04/63/89/360_F_204638958_xyjfyRaBbKlVX0OdP357fkgjUpYOlb7Z.jpg" loading="lazy" width="80" height="80" alt=""></img></h1>
                         <h6 class="text-uppercase text-pink">Orphanage</h6>
                     </div>
                     <div>
@@ -106,7 +107,7 @@ const DonatePage = () => {
             <div class="card plan-card">
                 <div class="card-block">
                     <div class="pt-3 pb-3">
-                        <h1><i class="fa fa-cube plan-icon bg-teal"></i></h1>
+                        <h1><img src="https://media.istockphoto.com/id/1352857325/vector/glass-money-jar-full-of-coins-with-dollar-sign-i.jpg?s=612x612&w=0&k=20&c=m8eDuiu1K19OlfkcM-uTNRk6w_DAUf17pJplMCZKFOQ=" loading="lazy" width="80" height="80" alt=""></img></h1>
                         <h6 class="text-uppercase text-teal">One Time Donation</h6>
                     </div>
                     <div>
