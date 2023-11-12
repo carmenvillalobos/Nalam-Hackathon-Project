@@ -11,8 +11,9 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 const DonatePage = () => {
   return (
     <div>
-		<Navbar bg="dark" data-bs-theme="dark" style={{ marginLeft: '200px', marginRight: '200px' }}>
+		<Navbar bg="white" data-bs-theme="white" style={{ marginLeft: '200px', marginRight: '200px' }}>
         <Container className="centered-container">
+        <img src="https://assets-global.website-files.com/651eac31835f453a27bb7c5a/651eaf8dda4d313d93565f20_Nalam%20Logo.svg" loading="lazy" width="87" height="23" alt=""></img>
           <Nav className="mr-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/DonatePage">Donate</Nav.Link>
@@ -78,7 +79,7 @@ const DonatePage = () => {
                         <div class="plan-div-border"></div>
                     </div>
                     <div class="plan-features pb-3 mt-3 text-muted padding-t-b-30">
-                        <p>4 to 16 years typical aget</p>
+                        <p>4 to 16 years typical age</p>
                         <p>Cancel anytime</p>
                         <p>$399 per year</p>
                         <p>Ongoing</p>

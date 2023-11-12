@@ -77,6 +77,7 @@ Pricing
 
 .plan-card .plan-features p {
   line-height: 32px;
+  
 }
 
 .bg-pink {
@@ -106,6 +107,13 @@ Pricing
   border: 1px solid #009688;
   color: #ffffff;
 }
+
+/* CenteredNavbar.css */
+.centered-container {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 
 
 
