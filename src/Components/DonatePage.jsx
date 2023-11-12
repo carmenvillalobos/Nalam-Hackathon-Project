@@ -12,14 +12,14 @@ const DonatePage = () => {
   return (
     <div>
 		<div>
-      <Navbar bg="dark" expand="lg" variant="dark">
+      <Navbar bg="white" expand="lg" variant="dark">
         <Container>
         <Navbar.Brand href="/">
         <img src="https://assets-global.website-files.com/651eac31835f453a27bb7c5a/651eaf8dda4d313d93565f20_Nalam%20Logo.svg" loading="lazy" width="87" height="23" alt="" />
         </Navbar.Brand>
 
-          <Navbar.Brand href="/">Home</Navbar.Brand>
-          <Navbar.Brand href="/DonatePage">Donate</Navbar.Brand>
+          <Navbar.Brand class= "changeText" href="/">Home</Navbar.Brand>
+          <Navbar.Brand class= "changeText" href="/DonatePage">Donate</Navbar.Brand>
             
         </Container>
       </Navbar>

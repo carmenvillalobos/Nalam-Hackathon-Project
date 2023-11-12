@@ -45,6 +45,10 @@ body {
 /* ==============
 Pricing
 ===================*/
+
+ .changeText{
+  color: black;
+ }
 .plan-card {
   margin-top: 100px;
   margin-bottom: 100px;
