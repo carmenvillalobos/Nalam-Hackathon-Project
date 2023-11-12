@@ -3,18 +3,4 @@
     margin-left: auto !important;
     margin-right: auto !important;
   }
-  
-
-  .changeText{
-    color: black;
-    background-color: #009688;
-   }
-   .changeText:hover{
-    background-color: lavenderblush;
-   }
-
-   body {
-    background-color: lightgray;
-   }
-
-   
+ 

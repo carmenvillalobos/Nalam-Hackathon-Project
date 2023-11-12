@@ -10,6 +10,8 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import '../App.css';
 
 
+
+
 const DonatePage = () => {
   return (
 
@@ -19,17 +21,20 @@ const DonatePage = () => {
     
     <div >
 		<div>
-      <Navbar bg="white" expand="lg" variant="dark">
-        <Container>
-        <Navbar.Brand href="/">
+        <Navbar expand="lg" bg="white" variant="light">
+      <Container>
+      <Navbar.Brand href="/">
         <img src="https://assets-global.website-files.com/651eac31835f453a27bb7c5a/651eaf8dda4d313d93565f20_Nalam%20Logo.svg" loading="lazy" width="87" height="23" alt="" />
         </Navbar.Brand>
-
-          <Navbar.Brand style = {{color: 'black'}} class= "changeText" href="/" >Home</Navbar.Brand>
-          <Navbar.Brand style = {{color: 'black'}} class= "changeText" href="/DonatePage">Donate</Navbar.Brand>
-            
-        </Container>
-      </Navbar>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link  class= "changeText" href="/" >Home</Nav.Link>
+          <Nav.Link class= "changeText" href="/DonatePage">Donate</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
       <link
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         rel="stylesheet"
