@@ -1,22 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
 import HomePage from './Components/HomePage';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import DonatePage from './Components/DonatePage';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 function App() {
 
   return (
 
     <div className="App">
-
+      <header className="App-header">
+      
         <HomePage />
-        {/* <Router>
-        <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route path="/donate" component={DonatePage} />
-        </Switch>
-      </Router> */}
-
+ 
+        <Router>
+          <Link to="/DonatePage">DonatePage</Link>
+        </Router>
+ 
+ 
+      </header>
     </div>
   );
 }
