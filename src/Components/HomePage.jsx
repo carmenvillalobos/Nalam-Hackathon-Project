@@ -32,7 +32,7 @@ const HomePage = () => {
 
       <Slideshow/> 
 
-      <Button variant="info" size="lg" className="btn-block" href="/DonatePage">
+      <Button variant="success" size="lg" className="btn-block" href="/DonatePage">
           Donate
       </Button>
 
