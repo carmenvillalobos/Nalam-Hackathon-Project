@@ -18,7 +18,7 @@ const HomePage = () => {
         <Navbar.Brand href="/">
         <img src="https://assets-global.website-files.com/651eac31835f453a27bb7c5a/651eaf8dda4d313d93565f20_Nalam%20Logo.svg" loading="lazy" width="87" height="23" alt="" />
         </Navbar.Brand>
-          <Navbar.Brand style = {{color: 'black'}} class= "changeText" href="/">Home</Navbar.Brand>
+          <Navbar.Brand style = {{color: 'black'}}  class= "changeText" href="/">Home</Navbar.Brand>
           <Navbar.Brand style = {{color: 'black'}} class= "changeText" href="/DonatePage">Donate</Navbar.Brand>
         </Container>
       </Navbar>

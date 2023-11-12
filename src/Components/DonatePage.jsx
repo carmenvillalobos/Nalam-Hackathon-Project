@@ -12,7 +12,12 @@ import '../App.css';
 
 const DonatePage = () => {
   return (
-    <div>
+
+   
+
+    <div className='bigdiv' color='black'>
+    
+    <div >
 		<div>
       <Navbar bg="white" expand="lg" variant="dark">
         <Container>
@@ -130,7 +135,9 @@ const DonatePage = () => {
 
 </div>
 		</div>
-    
+
+        
+        </div>
   );
 };
 
