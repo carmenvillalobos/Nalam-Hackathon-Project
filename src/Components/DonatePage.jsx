@@ -11,15 +11,25 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 const DonatePage = () => {
   return (
     <div>
-		<Navbar bg="white" data-bs-theme="white" style={{ marginLeft: '200px', marginRight: '200px' }}>
-        <Container className="centered-container">
-        <img src="https://assets-global.website-files.com/651eac31835f453a27bb7c5a/651eaf8dda4d313d93565f20_Nalam%20Logo.svg" loading="lazy" width="87" height="23" alt=""></img>
-          <Nav className="mr-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/DonatePage">Donate</Nav.Link>
-          </Nav>
+		<div>
+      <Navbar bg="dark" expand="lg" variant="dark">
+        <Container>
+        <Navbar.Brand href="/">
+        <img src="https://assets-global.website-files.com/651eac31835f453a27bb7c5a/651eaf8dda4d313d93565f20_Nalam%20Logo.svg" loading="lazy" width="87" height="23" alt="" />
+        </Navbar.Brand>
+
+          <Navbar.Brand href="/">Home</Navbar.Brand>
+          <Navbar.Brand href="/DonatePage">Donate</Navbar.Brand>
+            
         </Container>
-      </Navbar> 
+      </Navbar>
+      <link
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous"
+      />
+    </div>
 
 			<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
 <div class="container">
