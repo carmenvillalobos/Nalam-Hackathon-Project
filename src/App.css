@@ -36,3 +36,178 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  margin-top: 100px;
+}
+
+
+/* ==============
+Pricing
+===================*/
+.plan-card {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.plan-card:hover {
+  color:#61dafb;
+  background-color: lavenderblush;
+}
+
+.plan-card .plan-icon {
+  display: inline-block;
+  font-size: 35px;
+  width: 100px;
+  height: 100px;
+  color: #ffffff;
+  line-height: 76px;
+  overflow: hidden;
+  border: 12px solid #ffffff;
+  border-radius: 50%;
+  background: #67a8e4;
+  box-shadow: 0 0 3px #cccccc;
+  transition: all .3s;
+}
+
+.plan-card .plan-price span {
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+.plan-card .plan-features p {
+  line-height: 32px;
+}
+
+.bg-pink {
+  background-color: #f06292 !important;
+}
+
+.bg-teal {
+  background-color: #009688 !important;
+}
+
+.text-pink {
+  color: #f06292 !important;
+}
+
+.text-teal {
+  color: #009688 !important;
+}
+
+.btn-pink {
+  background-color: #f06292;
+  border: 1px solid #f06292;
+  color: #ffffff;
+}
+
+.btn-teal {
+  background-color: #009688;
+  border: 1px solid #009688;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

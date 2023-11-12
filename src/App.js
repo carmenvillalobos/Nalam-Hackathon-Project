@@ -1,39 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
-import Slideshow from './Components/Slideshow';
+import './Components/DonatePage.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import HomePage from './Components/HomePage';
 import DonatePage from './Components/DonatePage';
-import NavBar from './Components/NavBar';
-import Card from 'react-bootstrap/Card';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import React from 'react';
+import Slideshow from './Components/Slideshow';
 import Button from 'react-bootstrap/Button';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
-const handleClick = () => {
-  alert('Button Clicked!');
-};
 
 function App() {
   return (
 
     <div className="App">
       <header className="App-header">
+
+        <Router>
+          <Routes>
+            <Route path='/' element={<HomePage/>} />
+            <Route path='/DonatePage' element={<DonatePage/>} />
+          </Routes>
+        </Router>
+
       
-        <NavBar />
-
-        <Slideshow/>
-
-        {/* <Router>
-        <Switch>
-        <Route path="/DonatePage" component={DonatePage} />
-        </Switch>
-        </Router> */}
-
-        {/* <Link to="/DonatePage"> */}
-        <Button variant="success" size="lg" className="btn-block">Donate</Button>
-        {/* </Link> */}
-
-      </header>
+        </header>
     </div>
+    
   );
 }
 
