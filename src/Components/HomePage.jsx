@@ -26,6 +26,9 @@ const HomePage = () => {
       <Button variant="info" size="lg" className="btn-block" href="/DonatePage">
           Donate
       </Button>
+
+      
+
     </div>
   );
 };
