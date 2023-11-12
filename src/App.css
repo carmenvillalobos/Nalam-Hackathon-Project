@@ -48,11 +48,13 @@ Pricing
 
  .changeText{
   color: black;
+  background-color: #009688;
  }
 
  .changeText:hover{
   background-color: lavenderblush;
  }
+
 .plan-card {
   margin-top: 100px;
   margin-bottom: 100px;
