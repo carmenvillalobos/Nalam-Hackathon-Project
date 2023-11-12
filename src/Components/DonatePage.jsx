@@ -12,7 +12,7 @@ const DonatePage = () => {
   return (
     <div>
 		<div>
-      <Navbar bg="white" expand="lg" variant="dark">
+      <Navbar bg="light" expand="lg" variant="dark">
         <Container>
         <Navbar.Brand href="/">
         <img src="https://assets-global.website-files.com/651eac31835f453a27bb7c5a/651eaf8dda4d313d93565f20_Nalam%20Logo.svg" loading="lazy" width="87" height="23" alt="" />
