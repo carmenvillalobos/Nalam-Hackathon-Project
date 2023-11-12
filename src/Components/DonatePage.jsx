@@ -49,7 +49,7 @@ const DonatePage = () => {
                 <div class="card-block">
                     <div class="pt-3 pb-3">
                         <h1><i class="fa fa-trophy plan-icon bg-dark"></i></h1>
-                        <h6 class="text-uppercase text-dark">Vocational</h6>
+                        <h6 class="text-uppercase text-primary">Vocational</h6>
                     </div>
                     <div>
                         <h1 class="plan-price padding-b-15">$117<span class="text-muted m-l-10"><sup>Per Month</sup></span></h1>
