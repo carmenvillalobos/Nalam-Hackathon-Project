@@ -60,7 +60,7 @@ const DonatePage = () => {
                         <p>Cancel anytime</p>
                         <p>$1,399 per year</p>
                         <p>Avg. 1-3y duration</p>
-                        <a href="#/" class="btn btn-dark">Donate</a>
+                        <a href="#/" class="btn btn-primary">Donate</a>
                     </div>
                 </div>
             </div>
